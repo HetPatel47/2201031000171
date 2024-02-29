@@ -1,0 +1,686 @@
+.home-page-child {
+    height: 11px;
+    width: 38px;
+    position: relative;
+    background: linear-gradient(180deg, #7eb1cd, rgba(85, 131, 156, 0));
+    display: none;
+  }
+  .home-page-item {
+    height: 1547px;
+    width: 1322px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-lightblue);
+    display: none;
+    max-width: 100%;
+  }
+  .f-r-a-m-e {
+    height: 22px;
+    width: 1px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #7eb1cd, rgba(85, 131, 156, 0));
+  }
+  .life-is-too,
+  .logo {
+    font-size: inherit;
+    text-transform: uppercase;
+    font-family: inherit;
+  }
+  .logo {
+    margin: 0;
+    width: 264px;
+    height: 77px;
+    position: relative;
+    letter-spacing: -0.28em;
+    font-weight: 700;
+    display: inline-block;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+  }
+  .life-is-too {
+    margin: 0 !important;
+    position: absolute;
+    bottom: 114px;
+    left: -44px;
+    font-style: italic;
+    font-weight: 400;
+    z-index: 3;
+  }
+  .p,
+  .repeat,
+  .ride- {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .ride-revel-container {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .frame {
+    height: 37px;
+    width: 152px;
+    position: relative;
+    border-radius: var(--br-mid);
+    background: linear-gradient(180deg, #73b4e3, #3387a1);
+    cursor: pointer;
+  }
+  .pre-orde {
+    position: relative;
+    font-size: var(--font-size-mini);
+    text-transform: uppercase;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    text-align: left;
+    z-index: 1;
+    margin-left: -118px;
+  }
+  .preorder-text,
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .preorder-text {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 152px;
+    flex-direction: row;
+  }
+  .text {
+    flex-direction: column;
+    gap: 119px 0;
+    max-width: 100%;
+    font-size: 64px;
+  }
+  .f-r-a-m-e-inner,
+  .life-is-too-short-to-ride-a-fu-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .life-is-too-short-to-ride-a-fu-parent {
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-xl);
+    position: relative;
+  }
+  .f-r-a-m-e-inner {
+    align-self: stretch;
+    justify-content: flex-end;
+    padding: 0 0 145px;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+  }
+  .back {
+    flex: 1;
+    position: relative;
+    text-transform: uppercase;
+    white-space: pre-wrap;
+    z-index: 1;
+  }
+  .text-child {
+    height: 37px;
+    width: 152px;
+    position: relative;
+    border-radius: var(--br-mid);
+    background: linear-gradient(
+      183.62deg,
+      #4990b8,
+      #abd2e7 19.5%,
+      #a8d0e5 25%,
+      #a0c9de 39.5%,
+      #8cb9ce 50%,
+      #71a3b8 64.5%,
+      #548ca0 79.5%,
+      #5a9fb5
+    );
+    display: none;
+  }
+  .back1 {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-mini);
+    text-transform: uppercase;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    white-space: pre-wrap;
+    text-align: left;
+    z-index: 1;
+  }
+  .text1 {
+    cursor: pointer;
+    border: 0;
+    padding: 10px 53px 9px var(--padding-15xl);
+    background-color: transparent;
+    width: 152px;
+    margin: 0 !important;
+    position: absolute;
+    top: -32px;
+    right: -110px;
+    border-radius: var(--br-mid);
+    background: linear-gradient(
+      183.62deg,
+      #4990b8,
+      #abd2e7 19.5%,
+      #a8d0e5 25%,
+      #a0c9de 39.5%,
+      #8cb9ce 50%,
+      #71a3b8 64.5%,
+      #548ca0 79.5%,
+      #5a9fb5
+    );
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    white-space: nowrap;
+  }
+  .back-text,
+  .back2 {
+    flex: 1;
+    position: relative;
+  }
+  .back-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .back2 {
+    text-transform: uppercase;
+    white-space: pre-wrap;
+    z-index: 2;
+    margin-left: -62px;
+  }
+  .back-text-parent {
+    flex: 1;
+    flex-direction: row;
+  }
+  .back-text-parent,
+  .f-r-a-m-e-child,
+  .f-r-a-m-e1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .f-r-a-m-e-child {
+    width: 188px;
+    flex-direction: row;
+    padding: 0 63px;
+    box-sizing: border-box;
+    font-size: var(--font-size-mini);
+    color: var(--color-gray-100);
+  }
+  .f-r-a-m-e1 {
+    flex: 1;
+    flex-direction: column;
+    gap: 129px 0;
+    max-width: 100%;
+  }
+  .f-r-a-m-e-parent {
+    width: 505px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 12px 0 0 15px;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 505px;
+    max-width: 100%;
+  }
+  .mototec-fat-tire4-600x-1-icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    mix-blend-mode: darken;
+    z-index: 3;
+  }
+  .home {
+    position: relative;
+    text-transform: uppercase;
+    z-index: 4;
+  }
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 6px 0 0;
+  }
+  .contect {
+    height: 10px;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 4;
+  }
+  .price1 {
+    margin: 0;
+  }
+  .price {
+    height: 10px;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    flex-shrink: 0;
+    cursor: pointer;
+    z-index: 4;
+  }
+  .price-text {
+    width: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5px 0 0;
+    box-sizing: border-box;
+  }
+  .gallery {
+    height: 10px;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    flex-shrink: 0;
+    cursor: pointer;
+    z-index: 4;
+  }
+  .rectangle-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 7px 0 0;
+    color: #181818;
+  }
+  .revel-repeat-text {
+    margin: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .info-rectangle,
+  .kmhr-speed-frame {
+    height: 20px;
+    border-radius: var(--br-mid);
+  }
+  .info-rectangle {
+    width: 84px;
+    position: absolute;
+    margin: 0 !important;
+    top: -3px;
+    right: -42px;
+    background: linear-gradient(180deg, #54e3ca, rgba(18, 165, 139, 0));
+    z-index: 4;
+  }
+  .kmhr-speed-frame {
+    flex: 1;
+    position: relative;
+    background: linear-gradient(113.81deg, #11baef, #0f7292);
+    cursor: pointer;
+    z-index: 5;
+  }
+  .login {
+    height: 10px;
+    position: relative;
+    font-size: var(--font-size-mini);
+    text-transform: uppercase;
+    font-family: var(--font-inter);
+    color: #fffbfb;
+    text-align: left;
+    display: inline-block;
+    z-index: 6;
+    margin-left: -67px;
+  }
+  .secondary-info-rectangle {
+    cursor: pointer;
+    border: 0;
+    padding: 0 24px 0 0;
+    background-color: transparent;
+    width: 84px;
+    margin: 0 !important;
+    position: absolute;
+    top: -3px;
+    right: -42px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .kmhr,
+  .speed {
+    margin: 0;
+  }
+  .speed {
+    white-space: pre-wrap;
+  }
+  .kmhr-speed {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 4;
+  }
+  .km {
+    white-space: pre-wrap;
+  }
+  .bettry-range,
+  .km {
+    margin: 0;
+  }
+  .km-bettry-range-container {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 4;
+  }
+  .charging-time-text,
+  .specs-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .specs-frame {
+    justify-content: flex-start;
+    gap: 0 44px;
+  }
+  .charging-time-text {
+    align-self: stretch;
+    justify-content: flex-end;
+    padding: 0 11px;
+    box-sizing: border-box;
+  }
+  .hr {
+    white-space: pre-wrap;
+  }
+  .charging-time,
+  .hr {
+    margin: 0;
+  }
+  .hr-charging-time-container {
+    margin: 0 !important;
+    position: absolute;
+    right: -71px;
+    bottom: 79px;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 4;
+  }
+  .home-frame {
+    width: 747px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 19px 144px 52px 31px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 650px 0;
+    max-width: 100%;
+  }
+  .inner-ellipse {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-lightblue);
+    width: 1322px;
+    height: 1547px;
+    z-index: 2;
+  }
+  .ellipse-container,
+  .ellipse-container1 {
+    position: absolute;
+    left: 828px;
+    height: 491px;
+    z-index: 3;
+  }
+  .ellipse-container {
+    top: 565px;
+    background: radial-gradient(
+      50% 50%at 50% 50%,
+      #54e3ca 0.02%,
+      rgba(87, 204, 190, 0.98) 23.05%,
+      rgba(96, 181, 175, 0.9)
+    );
+    width: 140px;
+  }
+  .ellipse-container1 {
+    top: 1056px;
+    background: linear-gradient(176.92deg, #73b4e3, #3982b8);
+    width: 121px;
+  }
+  .f-92463436-qkvc0xbv5hih9srgnws-icon {
+    position: absolute;
+    top: 1434px;
+    left: 565px;
+    width: 340px;
+    height: 140px;
+    object-fit: cover;
+    mix-blend-mode: darken;
+    z-index: 4;
+  }
+  .search-icon-frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xs);
+    background-color: var(--color-gray-200);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .icon-search {
+    position: absolute;
+    top: 2px;
+    left: 224px;
+    width: 26px;
+    height: 27px;
+    z-index: 5;
+  }
+  .search-icon-frame {
+    position: absolute;
+    top: 587px;
+    left: 565px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-gray-200);
+    width: 251px;
+    height: 29px;
+    z-index: 4;
+  }
+  .brand-info-rectangle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .brand-rectangle,
+  .moto-tech-branding {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+  .brand-rectangle {
+    margin-bottom: -27px;
+    align-self: stretch;
+    justify-content: flex-end;
+    padding: 51px 13px 135px;
+    position: relative;
+    min-height: 1574px;
+    max-width: 100%;
+  }
+  .moto-tech-branding {
+    margin-top: -565px;
+    width: 1322px;
+    height: 1547px;
+    justify-content: flex-start;
+    padding: 0;
+    max-width: 139%;
+  }
+  .gallery-text,
+  .home-page {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    font-family: var(--font-inter);
+  }
+  .gallery-text {
+    height: 982px;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 617px;
+    max-width: 100%;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+  }
+  .home-page {
+    width: 100%;
+    position: relative;
+    border-radius: 30px;
+    background-color: #daecf5;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0 58px;
+    letter-spacing: normal;
+    font-size: 48px;
+    color: #171616;
+  }
+  @media screen and (max-width: 1200px) {
+    .f-r-a-m-e-parent {
+      flex: 1;
+    }
+    .home-page {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .home-frame {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-15xl);
+      box-sizing: border-box;
+    }
+    .brand-rectangle {
+      padding-top: 33px;
+      padding-bottom: 88px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .logo {
+      font-size: var(--font-size-19xl);
+    }
+    .ride-revel-container {
+      font-size: 51px;
+    }
+    .f-r-a-m-e-inner {
+      padding-bottom: 94px;
+      box-sizing: border-box;
+    }
+    .f-r-a-m-e1 {
+      gap: 129px 0;
+    }
+    .f-r-a-m-e-parent {
+      min-width: 100%;
+    }
+    .home-frame {
+      gap: 650px 0;
+      padding-right: 72px;
+      box-sizing: border-box;
+    }
+    .gallery-text {
+      min-width: 100%;
+    }
+    .home-page {
+      gap: 0 58px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .logo {
+      font-size: 29px;
+    }
+    .life-is-too {
+      font-size: var(--font-size-lgi);
+    }
+    .ride-revel-container {
+      font-size: var(--font-size-19xl);
+    }
+    .text {
+      gap: 119px 0;
+    }
+    .km-bettry-range-container,
+    .kmhr-speed {
+      font-size: var(--font-size-lgi);
+    }
+    .specs-frame {
+      flex-wrap: wrap;
+      gap: 0 44px;
+    }
+    .hr-charging-time-container {
+      font-size: var(--font-size-lgi);
+    }
+    .home-frame {
+      gap: 650px 0;
+      padding-right: var(--padding-xl);
+      padding-bottom: 22px;
+      box-sizing: border-box;
+    }
+    .brand-rectangle {
+      padding-top: 21px;
+      padding-bottom: 57px;
+      box-sizing: border-box;
+    }
+    .gallery-text,
+    .moto-tech-branding {
+      height: auto;
+    }
+  }

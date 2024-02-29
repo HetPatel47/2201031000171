@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home-page">
+      <div class="home-page-child"></div>
+      <div class="home-page-item"></div>
+      <div class="f-r-a-m-e-parent">
+        <div class="f-r-a-m-e"></div>
+        <div class="f-r-a-m-e1">
+          <h1 class="logo">hvm</h1>
+          <div class="f-r-a-m-e-inner">
+            <div class="life-is-too-short-to-ride-a-fu-parent">
+              <h2 class="life-is-too">
+                Life is too short to ride a futuristic bike
+              </h2>
+              <div class="text">
+                <h1 class="ride-revel-container">
+                  <p class="ride-">Ride - Revel</p>
+                  <p class="p">-</p>
+                  <p class="repeat">Repeat</p>
+                </h1>
+                <button class="preorder-text">
+                  <div class="frame" id="frame"></div>
+                  <div class="pre-orde">pre-orde</div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="f-r-a-m-e-child">
+            <div class="back-text-parent">
+              <div class="back-text">
+                <div class="back">back</div>
+                <button class="text1">
+                  <div class="text-child"></div>
+                  <div class="back1">back</div>
+                </button>
+              </div>
+              <div class="back2">back</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="gallery-text">
+        <div class="moto-tech-branding">
+          <div class="brand-rectangle">
+            <div class="home-frame">
+              <img
+                class="mototec-fat-tire4-600x-1-icon"
+                alt=""
+                src="./public/mototec-fat-tire4-600x-1@2x.png"
+              />
+
+              <nav class="revel-repeat-text">
+                <div class="logo-text">
+                  <div class="home">Home</div>
+                </div>
+                <div class="contect" id="contectText">contect</div>
+                <div class="price-text">
+                  <div class="price" id="priceText">
+                    <p class="price1">price</p>
+                  </div>
+                </div>
+                <div class="rectangle-frame">
+                  <div class="gallery" id="galleryText">gallery</div>
+                </div>
+              </nav>
+              <div class="info-rectangle"></div>
+              <button class="secondary-info-rectangle">
+                <div class="kmhr-speed-frame" id="kmhrSpeedFrame"></div>
+                <div class="login">login</div>
+              </button>
+              <div class="charging-time-text">
+                <div class="specs-frame">
+                  <h2 class="kmhr-speed">
+                    <p class="kmhr">50 km/hr</p>
+                    <p class="speed">speed</p>
+                  </h2>
+                  <h2 class="km-bettry-range-container">
+                    <p class="km">90 km</p>
+                    <p class="bettry-range">bettry range</p>
+                  </h2>
+                </div>
+              </div>
+              <h2 class="hr-charging-time-container">
+                <p class="hr">2.3 hr</p>
+                <p class="charging-time">charging time</p>
+              </h2>
+            </div>
+            <div class="brand-info-rectangle">
+              <div class="inner-ellipse"></div>
+              <div class="ellipse-container"></div>
+              <div class="ellipse-container1"></div>
+              <img
+                class="f-92463436-qkvc0xbv5hih9srgnws-icon"
+                loading="lazy"
+                alt=""
+                src="./public/360-f-92463436-qkvc0xbv5hih9srgnwsbqnpbn2nhqstx-1@2x.png"
+              />
+
+              <div class="search-icon-frame">
+                <div class="search-icon-frame-child"></div>
+                <img
+                  class="icon-search"
+                  loading="lazy"
+                  alt=""
+                  src="./public/-icon-search.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var frame = document.getElementById("frame");
+      if (frame) {
+        frame.addEventListener("click", function (e) {
+          // Please sync "pre order " to the project
+        });
+      }
+      
+      var contectText = document.getElementById("contectText");
+      if (contectText) {
+        contectText.addEventListener("click", function (e) {
+          // Please sync "contact" to the project
+        });
+      }
+      
+      var priceText = document.getElementById("priceText");
+      if (priceText) {
+        priceText.addEventListener("click", function (e) {
+          // Please sync "price" to the project
+        });
+      }
+      
+      var galleryText = document.getElementById("galleryText");
+      if (galleryText) {
+        galleryText.addEventListener("click", function (e) {
+          // Please sync "gallery" to the project
+        });
+      }
+      
+      var kmhrSpeedFrame = document.getElementById("kmhrSpeedFrame");
+      if (kmhrSpeedFrame) {
+        kmhrSpeedFrame.addEventListener("click", function (e) {
+          // Please sync "login page" to the project
+        });
+      }
+      </script>
+  </body>
+</html>
